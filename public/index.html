@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>立直麻将大模型排行榜</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">RiichiMahjongBench</p>
+        <h1>大模型立直麻将排行榜</h1>
+        <p class="subtitle">
+          自动读取结果目录并按模型分数进行排序
+        </p>
+      </header>
+
+      <section class="summary" id="summary" aria-live="polite">
+        <p>正在读取排行榜数据…</p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>模型总分排行</h2>
+          <button id="reloadBtn" type="button">刷新</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>排名</th>
+                <th>模型</th>
+                <th>平均分</th>
+                <th>最高分</th>
+                <th>最低分</th>
+                <th>参与场次</th>
+                <th>最近分数</th>
+                <th>最近变化</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboardBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

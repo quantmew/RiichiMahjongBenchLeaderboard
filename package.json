@@ -1,0 +1,14 @@
+{
+  "name": "riichi-mahjong-benchmark-leaderboard",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Generate and host a leaderboard for Riichi Mahjong LLM benchmark results.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/generate-leaderboard.mjs",
+    "start": "npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

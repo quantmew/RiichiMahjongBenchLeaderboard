@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-02-17T12:48:37.283Z",
+  "source_dir": "/mnt/hdd1/xiahan_github/RiichiMahjongBench/logs",
+  "summary": {
+    "run_count": 2,
+    "scored_run_count": 0,
+    "partial_run_count": 2,
+    "model_count": 4
+  },
+  "runs": [
+    {
+      "run_id": "2026-02-17_20-44-05",
+      "run_path": "/mnt/hdd1/xiahan_github/RiichiMahjongBench/logs/2026-02-17_20-44-05",
+      "started_at": "2026-02-17T12:44:05.000Z",
+      "format": "round-robin",
+      "games_expected": 3,
+      "games_seen": [
+        1
+      ],
+      "models": [
+        "GLM-5",
+        "deepseek-v3.2",
+        "kimi-k2.5",
+        "MiniMax-M2.5"
+      ],
+      "first_scores": {
+        "GLM-5": 25000,
+        "deepseek-v3.2": 25000,
+        "kimi-k2.5": 25000,
+        "MiniMax-M2.5": 25000
+      },
+      "last_scores": {
+        "GLM-5": 25000,
+        "deepseek-v3.2": 25000,
+        "kimi-k2.5": 25000,
+        "MiniMax-M2.5": 25000
+      },
+      "status": "partial",
+      "game_count": 1
+    },
+    {
+      "run_id": "2026-02-17_20-27-10",
+      "run_path": "/mnt/hdd1/xiahan_github/RiichiMahjongBench/logs/2026-02-17_20-27-10",
+      "started_at": "2026-02-17T12:27:10.000Z",
+      "format": "round-robin",
+      "games_expected": 3,
+      "games_seen": [
+        1
+      ],
+      "models": [
+        "GLM-5",
+        "deepseek-v3.2",
+        "kimi-k2.5",
+        "MiniMax-M2.5"
+      ],
+      "first_scores": {
+        "GLM-5": 25000,
+        "deepseek-v3.2": 25000,
+        "kimi-k2.5": 25000,
+        "MiniMax-M2.5": 25000
+      },
+      "last_scores": {
+        "GLM-5": 25000,
+        "deepseek-v3.2": 25000,
+        "kimi-k2.5": 25000,
+        "MiniMax-M2.5": 25000
+      },
+      "status": "partial",
+      "game_count": 1
+    }
+  ],
+  "leaderboard": [
+    {
+      "model": "GLM-5",
+      "runs": 2,
+      "max_score": 25000,
+      "min_score": 25000,
+      "latest_score": 25000,
+      "latest_delta": 0,
+      "latest_run_id": "2026-02-17_20-44-05",
+      "latest_run_at": "2026-02-17T12:44:05.000Z",
+      "avg_score": 25000,
+      "best": {
+        "run_id": "2026-02-17_20-44-05",
+        "started_at": "2026-02-17T12:44:05.000Z",
+        "score": 25000,
+        "status": "partial"
+      }
+    },
+    {
+      "model": "deepseek-v3.2",
+      "runs": 2,
+      "max_score": 25000,
+      "min_score": 25000,
+      "latest_score": 25000,
+      "latest_delta": 0,
+      "latest_run_id": "2026-02-17_20-44-05",
+      "latest_run_at": "2026-02-17T12:44:05.000Z",
+      "avg_score": 25000,
+      "best": {
+        "run_id": "2026-02-17_20-44-05",
+        "started_at": "2026-02-17T12:44:05.000Z",
+        "score": 25000,
+        "status": "partial"
+      }
+    },
+    {
+      "model": "kimi-k2.5",
+      "runs": 2,
+      "max_score": 25000,
+      "min_score": 25000,
+      "latest_score": 25000,
+      "latest_delta": 0,
+      "latest_run_id": "2026-02-17_20-44-05",
+      "latest_run_at": "2026-02-17T12:44:05.000Z",
+      "avg_score": 25000,
+      "best": {
+        "run_id": "2026-02-17_20-44-05",
+        "started_at": "2026-02-17T12:44:05.000Z",
+        "score": 25000,
+        "status": "partial"
+      }
+    },
+    {
+      "model": "MiniMax-M2.5",
+      "runs": 2,
+      "max_score": 25000,
+      "min_score": 25000,
+      "latest_score": 25000,
+      "latest_delta": 0,
+      "latest_run_id": "2026-02-17_20-44-05",
+      "latest_run_at": "2026-02-17T12:44:05.000Z",
+      "avg_score": 25000,
+      "best": {
+        "run_id": "2026-02-17_20-44-05",
+        "started_at": "2026-02-17T12:44:05.000Z",
+        "score": 25000,
+        "status": "partial"
+      }
+    }
+  ]
+}
